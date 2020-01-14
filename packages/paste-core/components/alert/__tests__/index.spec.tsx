@@ -50,7 +50,7 @@ describe('Alert', () => {
 
     it('Should add the provided role of alert to the alert', () => {
       const wrapper: ReactWrapper = mount(
-        <Alert role="foo" variant="error">
+        <Alert role="tab" variant="error">
           This is an alert
         </Alert>
       );
